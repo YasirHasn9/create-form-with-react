@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const ResetCss = createGlobalStyle`
 *,
@@ -11,4 +11,10 @@ export const ResetCss = createGlobalStyle`
 html {
     font-size: 62.5%;
 }
+`;
+
+export const Wrapper = styled.div`
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
 `;

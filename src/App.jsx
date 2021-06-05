@@ -1,10 +1,12 @@
 // reset css
 import { ResetCss } from "./style.global";
+import { Wrapper } from "./style.global";
+import { Contact } from "./components/Contact";
 export const App = () => {
   return (
-    <div>
+    <Wrapper>
       <ResetCss />
-      <h1>This is App</h1>
-    </div>
+      <Contact />
+    </Wrapper>
   );
 };
